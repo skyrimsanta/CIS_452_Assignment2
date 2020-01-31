@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Levi Schoof)
+ * (CameraBehavior)
+ * (Assignment 2)
+ * (Handles the movement of the camera, so it follows the player)
+ */
+
 public class CameraBehavior : MonoBehaviour
 {
     Player player;

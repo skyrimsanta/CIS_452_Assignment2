@@ -4,6 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/*
+ * (Levi Schoof)
+ * (Player)
+ * (Assignment 2)
+ * (Handles all the behvior of the player, including movement and health)
+ */
+
 public class Player : MonoBehaviour
 {
     public Text healthText;

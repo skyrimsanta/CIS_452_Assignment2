@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Levi Schoof)
+ * (Bullet)
+ * (Assignment 2)
+ * (Manages the basic behavior of the bullets)
+ */
+
 public class Bullet : MonoBehaviour
 {
     private float time;

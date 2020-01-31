@@ -3,6 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * (Levi Schoof)
+ * (GameManager)
+ * (Assignment 2)
+ * (Handles most of the UI)
+ */
+
 public class GameManager : MonoBehaviour
 {
     public Text movement;

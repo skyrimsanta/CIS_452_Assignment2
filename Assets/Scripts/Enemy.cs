@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Levi Schoof)
+ * (Enemy)
+ * (Assignment 2)
+ * (The Enemy abstract class that all enemies will use)
+ */
+
 namespace StrategyPattern
 {
     public abstract class Enemy : MonoBehaviour

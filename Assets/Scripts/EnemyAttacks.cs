@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Levi Schoof)
+ * (Enemy Attacks)
+ * (Assignment 2)
+ * (Holds the two kinds of enemy attack classes, and implements the IAttack abstract class)
+ */
+
 namespace StrategyPattern
 {
 

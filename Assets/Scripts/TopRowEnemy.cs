@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Levi Schoof)
+ * (TopRowEnemy)
+ * (Assignment 2)
+ * (The basic enemy that works on the top row. Implements the Enemy Abstract Class)
+ */
+
 namespace StrategyPattern
 {
     public class TopRowEnemy : Enemy

@@ -2,6 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * (Levi Schoof)
+ * (EnemyMovements)
+ * (Assignment 2)
+ * (Holds the two kinds of enemy movements classes, and implements the IMovement abstract class)
+ */
+
 namespace StrategyPattern
 {
     public class NoMove : IMovement
