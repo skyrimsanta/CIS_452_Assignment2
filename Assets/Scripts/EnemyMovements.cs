@@ -31,13 +31,13 @@ namespace StrategyPattern
             temp = transform.position;
             if (target.x < transform.position.x)
             {
-                temp.x += -1 * Time.deltaTime;
+                temp.x += -1.5f * Time.deltaTime;
                 transform.position = temp;
             }
 
             else if (target.x > transform.position.x)
             {
-                temp.x += 1 * Time.deltaTime;
+                temp.x += 1.5f * Time.deltaTime;
                 transform.position = temp;
             }
         }
