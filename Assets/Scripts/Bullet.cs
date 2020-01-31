@@ -23,7 +23,7 @@ public class Bullet : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground") && time > 1)
+        if (collision.gameObject.CompareTag("Ground") && time > .5f)
         {
             Destroy(this.gameObject);
         }
@@ -31,7 +31,7 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Ground") && time > 1)
+        if (collision.gameObject.CompareTag("Ground") && time > .5f)
         {
             Destroy(this.gameObject);
         }

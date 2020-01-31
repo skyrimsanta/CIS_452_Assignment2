@@ -83,7 +83,6 @@ public class Player : MonoBehaviour
         {
             endText.text = "You Lost, press any button to restart";
             Time.timeScale = 0;
-            //Destroy(this.gameObject);
         }
     }
 
@@ -102,14 +101,6 @@ public class Player : MonoBehaviour
         {
             Destroy(collision.gameObject);
             TakeDamage();
-        }
-    }
-
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-           // switching = false;
         }
     }
 
