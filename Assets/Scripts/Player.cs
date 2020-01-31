@@ -46,6 +46,7 @@ public class Player : MonoBehaviour
 
     private void Movement()
     {
+        
         float h = Input.GetAxis("Horizontal");
 
         Vector3 tempVect = new Vector3(h, gravityNum, 0);
@@ -77,7 +78,7 @@ public class Player : MonoBehaviour
     public void TakeDamage()
     {
         health--;
-        healthText.text = "Health - " + health;
+        healthText.text = "Health: " + health;
         if(health <= 0)
         {
             endText.text = "You Lost, press any button to restart";
@@ -108,7 +109,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            switching = false;
+           // switching = false;
         }
     }
 
